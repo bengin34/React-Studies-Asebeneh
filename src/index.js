@@ -33,10 +33,25 @@ const techs = (
   </div>
 )
 
+const Subscribe = (
+  <div style={{backgroundColor: 'aqua', borderRadius: '20px', display:'flex', justifyContent: 'center', alignItems: 'center'}} > 
+  
+    <h1 style={{ display:'block' }}>SUBSCRIBE</h1>
+
+   
+
+  </div>
+)
+
+
+
+
+
 const page = (
   <div>
   {text},
-  {techs}
+  {techs},
+  {Subscribe}
   </div>
 )
 const rootElement = document.getElementById('root')
