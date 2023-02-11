@@ -337,7 +337,8 @@ class App extends React.Component {
     }
 
     changeBackground = () => {
-    //   todo
+        //todo fix this
+  this.setState(this.backgroundColor === '' ? 'yellow' : 'green')
     
     }
 
@@ -370,7 +371,7 @@ class App extends React.Component {
                     techs={techs}
                     handleTime={this.handleTime}
                     greetPeople={this.greetPeople}
-                    cgangeBackground= {this.changeBackground}
+                    changeBackground= {this.changeBackground}
                     addOne = {this.addOne}
                     minusOne = {this.minusOne}
                     count= {this.state.count}
