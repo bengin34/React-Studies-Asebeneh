@@ -45,10 +45,6 @@ const Subscribe = (
   </div>
 )
 
-
-
-
-
 const page = (
   <div>
   {text},
